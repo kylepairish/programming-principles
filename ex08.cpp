@@ -9,6 +9,6 @@ int main()
 
   if(number % 2 == 0)
     cout << "The value " << number << " is an even number" << endl;
-  if(number % 2 == 1)
+  else
     cout << "The value " << number << " is an odd number" << endl;
 }
